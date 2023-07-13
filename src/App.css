@@ -1,3 +1,25 @@
 .App {
   text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.board {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.card {
+}
+
+.card > img {
+  height: 300px;
+  width: 300px;
+}
+
+.card:hover {
+  cursor: pointer;
 }
